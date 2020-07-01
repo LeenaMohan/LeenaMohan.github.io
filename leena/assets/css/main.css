@@ -1656,3 +1656,11 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+		
+		#header .btn {
+			border: none;
+			color: white;
+			padding: 1px 5px;
+			cursor: pointer;
+			font-size: 10px;
+		}

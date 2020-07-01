@@ -13,10 +13,10 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-
+		
 		<!-- Wrapper -->
 			<div id="wrapper">
-
+				
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
@@ -29,7 +29,10 @@
                  <a>I am Leena Mohan, so contended to have you here. You are on the website of a thick-skinned girl with her own discipline,
 				 passion and determination to her work who absolutely believe in hard work. My accomplishments will be a proof of it. 
 				 </a></p>
+				 <button class="btn" onclick="downloadResume()"><i class="fa fa-download"></i> Download Resume </button>
+				 <!--<a href="./docs/LeenaResume.pdf" download><i class="fa fa-download"></i> Download Resume </a>-->
 							</div>
+							
 						</div>
 						<nav>
 							<ul>
@@ -149,7 +152,7 @@
                             <li>
                                 <div class="leena-timeline-content">
                                    <span class="leena-timeline-date"><u><b><I><h2>SKILLS:</h2></b></I></u></span>
-								                    <h3> &#10004 Leadership â€“ team lead in study monk.<br>
+								                    <h3> &#10004 Leadership – team lead in study monk.<br>
 														&#10004 Challenging.<br>
 														&#10004 Blog writer.<br>
 														&#10004 Public speaker-<br>
@@ -503,6 +506,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+		<script>
+			function downloadResume() {
+				window.open("docs/LeenaResume.pdf", '_blank');
+			}
+		</script>	
 
 	</body>
 </html>
